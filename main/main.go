@@ -49,4 +49,18 @@ func main() {
 
 	fmt.Println(PI)
 
+	const PIx int = 1
+
+	fmt.Println(PIx)
+
+	const (
+		A int = 1
+		B     = 3.14
+		C     = "Hi!"
+	)
+
+	fmt.Println(A)
+	fmt.Println(B)
+	fmt.Println(C)
+
 }
